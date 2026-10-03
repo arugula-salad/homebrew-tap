@@ -3,24 +3,24 @@
 class Illogical < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://illogical.widgets.wtf"
-  version "0.8.0"
+  version "0.9.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.8.0/illogical-0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1923342e26c84282ced739ab6b4276f831fac905d95381992ea2d2fd4b7ea639"
+      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.0/illogical-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "00fa01bc1f4bcc3e52b92838cd3f57ffc1e9d5f88343a5a81fc5eadae4f0111e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.8.0/illogical-0.8.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e76f39642ef468b11da54344334d064b07998d09c6c6360f5794f4d04d8a3fbf"
+      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.0/illogical-0.9.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8c1ef2b089ace084e34a8f52b239afd5f91f95e999154e4e0be480e7f669d982"
     end
     on_arm do
-      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.8.0/illogical-0.8.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b9762b114511b5e4d8055a4fdec660d314acc00b56379d0fb51d15a9ec241c41"
+      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.0/illogical-0.9.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "fcec4b23002624746fa6d297c906c69c4335daf259e6f260f99507fa5cc904ab"
     end
   end
 
@@ -33,8 +33,11 @@ class Illogical < Formula
       Start the daemon as a service (a launchd agent on macOS, a systemd
       user unit on Linux), and again after each upgrade:
         illogicald install
-      It copies itself to ~/.local/bin and runs from there. Then open
-        http://127.0.0.1:7681
+      It copies itself to ~/.local/bin, runs from there, and prints the
+      next steps: where to open it, its logs, your phone (Tailscale) and
+      illogical control. Then, for Claude Code:
+        claude mcp add illogical -- illogical mcp
+      Docs: https://illogical.widgets.wtf/#install
     EOS
   end
 
