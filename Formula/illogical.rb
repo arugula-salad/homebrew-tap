@@ -3,24 +3,24 @@
 class Illogical < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://illogical.widgets.wtf"
-  version "0.9.0"
+  version "0.9.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.0/illogical-0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "00fa01bc1f4bcc3e52b92838cd3f57ffc1e9d5f88343a5a81fc5eadae4f0111e"
+      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.1/illogical-0.9.1-aarch64-apple-darwin.tar.gz"
+      sha256 "14dfbe4dad1c57281ac7869eba28285c26385afa1474cc7f6c806457aebc908e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.0/illogical-0.9.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8c1ef2b089ace084e34a8f52b239afd5f91f95e999154e4e0be480e7f669d982"
+      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.1/illogical-0.9.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "aef5ce29d8072063b6cfc6db357ae016c373274c6b726f717995f957144f65e7"
     end
     on_arm do
-      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.0/illogical-0.9.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "fcec4b23002624746fa6d297c906c69c4335daf259e6f260f99507fa5cc904ab"
+      url "https://git.inevitable.fyi/jhgaylor/illogical/releases/download/v0.9.1/illogical-0.9.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7dffe7446530bfc54697164bde73fe4dda68e414ca87832f715e1f950817b2a4"
     end
   end
 
