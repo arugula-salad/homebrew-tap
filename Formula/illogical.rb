@@ -3,24 +3,24 @@
 class Illogical < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://illogical.widgets.wtf"
-  version "0.14.0"
+  version "0.15.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.14.0/illogical-0.14.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a915cb18c5bb8d46530af7eeb247eec7e15b6e1339bb180ac11124d0a510bcbf"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.15.0/illogical-0.15.0-aarch64-apple-darwin.tar.gz"
+      sha256 "20a669782efeed5a8afa4f60962a77ef1e576fa3fc427db485c9c5ead1703d80"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.14.0/illogical-0.14.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0d6d633e1dfabe2d525b3ef259c2e44cb69af921bf3df5fb0b1996e11cdd294b"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.15.0/illogical-0.15.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "12e2b4f62fd9183bd5b0b827de3ab154beefff5e0f77860a9c29de5708f3ea6e"
     end
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.14.0/illogical-0.14.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3e4e020ac901003540c7389b4ca24252f51eb89da975ad4440f97dc528aad332"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.15.0/illogical-0.15.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9506c230f3c65b99b811f9ed3fbb59e337a20035ab47769a15e5740c50939770"
     end
   end
 
