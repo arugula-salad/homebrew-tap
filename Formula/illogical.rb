@@ -3,28 +3,28 @@
 class Illogical < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://illogical.widgets.wtf"
-  version "0.19.0"
+  version "0.20.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.19.0/illogical-0.19.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2f546df5f5c84036b4045e81f0f78184e390c194f244f6a53269f2129f0db4d6"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.20.0/illogical-0.20.0-x86_64-apple-darwin.tar.gz"
+      sha256 "bde3a1e91f4ae00b20c67677ade704a4c639196e1b3dd8bbfabae6b7cb3673cd"
     end
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.19.0/illogical-0.19.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f4c9dc3901ad104437d17055cf3e425402debf19b2e2abdd0ad03cf4709db253"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.20.0/illogical-0.20.0-aarch64-apple-darwin.tar.gz"
+      sha256 "11017453bb5d587d78d6b155eb10276b96621c8af96221e498bdccd6e54e322b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.19.0/illogical-0.19.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d777dd58a82fca7b71376c89d8369363a8dcba3c692e8634b1d7eefda2d130cf"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.20.0/illogical-0.20.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1c674425f22cd8db86c139244ba1d0efbc675dd3d6659b9de4af2eb58581d884"
     end
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.19.0/illogical-0.19.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e66a65f6cdb9ae0aefbaac4c54162866b939b8dc18b65b61b6a18ea9a1b0671a"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.20.0/illogical-0.20.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5a81f3b81439378df05b4eae727bf8e02957b646b6a7dc1c71dcfeb90b6ea418"
     end
   end
 
