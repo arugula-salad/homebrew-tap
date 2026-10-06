@@ -3,28 +3,28 @@
 class Illogical < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://illogical.widgets.wtf"
-  version "0.22.0"
+  version "0.23.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.22.0/illogical-0.22.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c452589e87e23521f0836e426abc18eb966cd1f2875767e56d8614bdcbbdd517"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.23.0/illogical-0.23.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cc94555d430622ad6c401971ef4d13c31298ddfebe97058bcc1a6138a6111f21"
     end
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.22.0/illogical-0.22.0-aarch64-apple-darwin.tar.gz"
-      sha256 "11805b47da5b70ba50e30760bf96ffe17eb971f9e7a08b50281011a58c2b869b"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.23.0/illogical-0.23.0-aarch64-apple-darwin.tar.gz"
+      sha256 "442c9949ad4f4f5cbcfec733d8d3dff5e866d5845eac579605a46bbcdffccdfe"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.22.0/illogical-0.22.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "037861660e9e41dfbcd319c2b1ae9e03113259ed9b180caf3447ded1def403e1"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.23.0/illogical-0.23.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d14af2b483dbab1eaa711d41f84a234f115819d552b2e4a8d096740430e2bdbb"
     end
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.22.0/illogical-0.22.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "56f527d1fafc242a4aee626ffae6a754c6bf67218031c208c14f5d5b009cbc57"
+      url "https://github.com/arugula-salad/illogical/releases/download/v0.23.0/illogical-0.23.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "81823fa26184cf94ef7a09dba64b9fbfba759c116208eb5e896e95cb393af32a"
     end
   end
 
