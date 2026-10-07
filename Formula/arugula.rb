@@ -2,29 +2,29 @@
 # arugula-salad/homebrew-tap repo on each release. Don't edit the copy there.
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
-  homepage "https://illogical.widgets.wtf"
-  version "0.26.0"
+  homepage "https://arugula.io"
+  version "0.26.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.26.0/arugula-0.26.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b612194ce0afa9e574f173fda115f91847e369969539cd32a4575f6ec06b6136"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.26.1/arugula-0.26.1-x86_64-apple-darwin.tar.gz"
+      sha256 "5682214c44859119ef030c9519a615218782e072348ad76d76f7309d739cb5e8"
     end
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.26.0/arugula-0.26.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3196654c636ba86dba70aa9c74909eaae5540885fa47cbe6ca9c6830bc1aefb9"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.26.1/arugula-0.26.1-aarch64-apple-darwin.tar.gz"
+      sha256 "cb7c6e9143fde5306991adf2cf1b42b40b8438216c8c27223358c03f07ed2f4d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.26.0/arugula-0.26.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0dfb692a6c3d96961df2f5a2276920f1f1ee5953407824f8126f576fef13f9cd"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.26.1/arugula-0.26.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d1ae6c6be487172312ea1ec5896f7b6131f5ce5e2fcbd9141152848974154e0c"
     end
     on_arm do
-      url "https://github.com/arugula-salad/illogical/releases/download/v0.26.0/arugula-0.26.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "44214639f9f56d6d9c5131c5f89d745b56227f260b459fbd179a488016ecf333"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.26.1/arugula-0.26.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7e168ea64d95d8d0dd2cb7f8aa942606dfa074a02d399e3d66cbfad094f389f7"
     end
   end
 
@@ -48,7 +48,7 @@ class Arugula < Formula
       next steps: where to open it, its logs, your phone (Tailscale) and
       Arugula control. Then, for Claude Code:
         claude mcp add arugula -- arugula mcp
-      Docs: https://illogical.widgets.wtf/#install
+      Docs: https://arugula.io/#install
     EOS
   end
 
