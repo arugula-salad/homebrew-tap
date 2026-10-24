@@ -3,28 +3,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.60.11"
+  version "0.60.12"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.11/arugula-0.60.11-x86_64-apple-darwin.tar.gz"
-      sha256 "57e2d2d1a5bc75978f72ac8419d74e36422221e45af3ccdba12acc3b76d423ad"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-x86_64-apple-darwin.tar.gz"
+      sha256 "83926caf4f7fe41687cba186544002a66ec347e376772431e270df29dc9ae306"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.11/arugula-0.60.11-aarch64-apple-darwin.tar.gz"
-      sha256 "5d5f752d804e896974403d1b5bca1aac860f86a7837ca8677c0ce6dc375f4101"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-aarch64-apple-darwin.tar.gz"
+      sha256 "86d95965834c833d850dc46dc7f3937e2fc4c4114903c5768e1a2916d5cbab05"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.11/arugula-0.60.11-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d5e837e173319204f49fa538b9a17f94354d69c033521c1d568a2bf3630e4344"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5242000ffc1db51b8055e027c330ed282958ce74aac66aba4bd207bc1fb6358f"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.11/arugula-0.60.11-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9325eeb662a5611f6a4ef1ee9cee4f1e0464ab677b3c9b93356a8130530bbd94"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a23a380f68f2237002f52cb6663874b5bea183b9692c80dacd4602fdd9143e1c"
     end
   end
 
