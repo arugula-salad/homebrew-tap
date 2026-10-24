@@ -3,28 +3,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.60.16"
+  version "0.60.17"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.16/arugula-0.60.16-x86_64-apple-darwin.tar.gz"
-      sha256 "1c404528412abb003843f1f54eb8bed528647fed1c843244de1231fa21e5735b"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.17/arugula-0.60.17-x86_64-apple-darwin.tar.gz"
+      sha256 "7cd377c05f0d486353d507be69a35332a0b65645fd8e2cb054d7f0b0f9121b15"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.16/arugula-0.60.16-aarch64-apple-darwin.tar.gz"
-      sha256 "e51140939d940983e3a6566b0b1540112ada561e89d832c092e4183f69c6cc39"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.17/arugula-0.60.17-aarch64-apple-darwin.tar.gz"
+      sha256 "312a6a1186a9a86a9e9f8b771a19a3a4b988c8de4a34c55bff1649ac9781c234"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.16/arugula-0.60.16-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f723e2dbf973d0a8b7c6c6d21562c3c46da7e4e67393b7816ba896abbeca9758"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.17/arugula-0.60.17-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6a2436053967f45a0dbfc131edd16c9de8306d442aa210d08bdff0806c6e7fee"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.16/arugula-0.60.16-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "aa8e89344192e8e59ed4f9eb7e74cbcbdfa529ce73b5a5e918ed96a9ba80a640"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.17/arugula-0.60.17-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3271e839ec772983d0732ef23ab7cb38a8487766195958d6e5d334ca0648533b"
     end
   end
 
