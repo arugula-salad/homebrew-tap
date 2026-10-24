@@ -3,28 +3,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.60.12"
+  version "0.60.13"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-x86_64-apple-darwin.tar.gz"
-      sha256 "83926caf4f7fe41687cba186544002a66ec347e376772431e270df29dc9ae306"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.13/arugula-0.60.13-x86_64-apple-darwin.tar.gz"
+      sha256 "9ba71d548e86e079fae15170342c5e37debef93f7994dd74333461f47a1a7d32"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-aarch64-apple-darwin.tar.gz"
-      sha256 "86d95965834c833d850dc46dc7f3937e2fc4c4114903c5768e1a2916d5cbab05"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.13/arugula-0.60.13-aarch64-apple-darwin.tar.gz"
+      sha256 "3c164ebde25804b44f610c2ac52ac9229a1db02f8ffa6aeafae256e1d53699b1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5242000ffc1db51b8055e027c330ed282958ce74aac66aba4bd207bc1fb6358f"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.13/arugula-0.60.13-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "431edc52e22cc8b86dce8e6cbdca1195b0fc583000282ffef4cc9e14cfe76c46"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.12/arugula-0.60.12-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a23a380f68f2237002f52cb6663874b5bea183b9692c80dacd4602fdd9143e1c"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.60.13/arugula-0.60.13-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "86e2fdb5b17ffb91078dc593735605f62f7c2aa04377c61509ed65c68f4c59ed"
     end
   end
 
