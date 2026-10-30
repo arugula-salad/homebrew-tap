@@ -3,28 +3,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.65.3"
+  version "0.65.4"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.3/arugula-0.65.3-x86_64-apple-darwin.tar.gz"
-      sha256 "f3d351ff9b4135b40d96fdb218c77c4a86d65a8333e28d1fcfe2389931f836f9"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.4/arugula-0.65.4-x86_64-apple-darwin.tar.gz"
+      sha256 "f011f042085e4c7a22ad24b1ea3dcf6e910776f1a92ada34787537e0eb9daf25"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.3/arugula-0.65.3-aarch64-apple-darwin.tar.gz"
-      sha256 "6de42a7cff1066058f7a657117ba632442e0c05fcc5c45cc53616e8b8ab01368"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.4/arugula-0.65.4-aarch64-apple-darwin.tar.gz"
+      sha256 "55ba49ea199a0d6e5ba19ae996fdd2d815fd28478db348015e061cc2e321de73"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.3/arugula-0.65.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "11ceef424023fffe65996e0c60af85af87f9a732c14e58af4cbe37b016b466b0"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.4/arugula-0.65.4-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3f20e95410bf6cb6c55c13e92603cbfcf8fa32049751fd459361e5a726b4bf29"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.3/arugula-0.65.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "90dbf4c5008c798e9bb5abca8fe909dd4dbeb962164fa1467b84707edb640bdf"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.65.4/arugula-0.65.4-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d000ae44f68941bcfa320bbe68a206be8ce6781a0a4108c964f4d5c75e2520fe"
     end
   end
 
