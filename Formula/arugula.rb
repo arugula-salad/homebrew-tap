@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.69.9"
+  version "0.69.10"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.9/arugula-0.69.9-x86_64-apple-darwin.tar.gz"
-      sha256 "3df5a02f047e6ff7b64806dc8a57f1307bb5a4d65052f5cdb3eb5fbb6959f0ee"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.10/arugula-0.69.10-x86_64-apple-darwin.tar.gz"
+      sha256 "05ecf771833ab4a78f1f18c5102aed905937e59238525e18645c3b69f0b7761c"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.9/arugula-0.69.9-aarch64-apple-darwin.tar.gz"
-      sha256 "aa615137b15a2f1335e8cf5afac9445cb895c8f7fd3eb6a767d6f274226d0c24"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.10/arugula-0.69.10-aarch64-apple-darwin.tar.gz"
+      sha256 "35b2cd077341a24ae455264b931ee0e221ccbdcd5a78bdda921b251f27f25cbd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.9/arugula-0.69.9-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c87e29aaf176548625d66e5b0ec1d05f934572698711d9678a24bac9e4b2b6f7"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.10/arugula-0.69.10-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7b62fb296ddd9b1ef3ef0920cb68c9bd3faa3641df28fd8912aec526e60dc653"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.9/arugula-0.69.9-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "117a940d1342e75908b118656089c1307d2bfca30955bce141e45e01de6398c2"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.69.10/arugula-0.69.10-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "252878dc213bac9a1d7535f25866d7cb216f47285b486b2d1beb971a941d25a9"
     end
   end
 
