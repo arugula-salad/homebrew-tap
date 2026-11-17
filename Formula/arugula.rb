@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.28"
+  version "0.70.29"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.28/arugula-0.70.28-x86_64-apple-darwin.tar.gz"
-      sha256 "fdf19f28f394fb5f72314cf9b0311933f59d6c3d8a57e47ac3026e073399625e"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.29/arugula-0.70.29-x86_64-apple-darwin.tar.gz"
+      sha256 "cfc7b2ce5f1cef87f29618b721f7be08638a623470d16b5cc1475bbc4d39c74e"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.28/arugula-0.70.28-aarch64-apple-darwin.tar.gz"
-      sha256 "8059eb36bc69cf22d48a810a13d2771712895b097a84faca49a3c8ce2cb20751"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.29/arugula-0.70.29-aarch64-apple-darwin.tar.gz"
+      sha256 "c297513e57950e4ec74d17d0b6da276350db41557bec18ca13a8c4f4e61d22e0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.28/arugula-0.70.28-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7788ff50b8d27e8a31a276bdb6e7caf2fbbdf72ec170d042390f8258b197ec03"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.29/arugula-0.70.29-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "056ff1655828f52abc7058be30362ac8ce0568466301120fc17640b8e35ab25b"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.28/arugula-0.70.28-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7510344bc63c9b4eafc62e0190c5ffbf7d13498b56d99ac08b18baa8322845f5"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.29/arugula-0.70.29-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4624c43e427c8f86cb679813e9ffac248a45d5d620fa2e795dbac80ee07729b6"
     end
   end
 
