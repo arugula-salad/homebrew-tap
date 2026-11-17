@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.33"
+  version "0.70.34"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.33/arugula-0.70.33-x86_64-apple-darwin.tar.gz"
-      sha256 "266e9044be02e3acb4f8f7059f4da267f3bd6ed8716077744480181507492bc3"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.34/arugula-0.70.34-x86_64-apple-darwin.tar.gz"
+      sha256 "36c8e14f4e9f907d49e03f45905855c07243668c7506797106277f3939a04707"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.33/arugula-0.70.33-aarch64-apple-darwin.tar.gz"
-      sha256 "d13bf1fc275de01b965387af8975627c80c2f204fc1f5bc1a13802eb28f5159b"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.34/arugula-0.70.34-aarch64-apple-darwin.tar.gz"
+      sha256 "a276831e23c6dd0e0b8d4afce58d395c826f09538bba417baeea00da96367394"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.33/arugula-0.70.33-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9a07bdae94db4805c2fb4e7c11de000e6719a25387477120416ae16cd4d9ead3"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.34/arugula-0.70.34-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0676710dcea38b2cb6e3df7a12f950c756d82a2751b09d462e07128f0c7fb9c0"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.33/arugula-0.70.33-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a4d00836f8cd521c2a03fe36cb5a50f43a3f12bcfea25f377d31914f1527a036"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.34/arugula-0.70.34-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "723adb637ec7250c31b84c7e38a4259bea0b59bcea04bf07741fdbf7de55b283"
     end
   end
 
