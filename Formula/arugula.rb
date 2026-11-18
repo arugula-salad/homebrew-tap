@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.43"
+  version "0.70.44"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.43/arugula-0.70.43-x86_64-apple-darwin.tar.gz"
-      sha256 "746f2c857f56b5d4ea72c94b1974080164b02a6b920cc64448f5bddde6ba3406"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.44/arugula-0.70.44-x86_64-apple-darwin.tar.gz"
+      sha256 "f289e5a157568045b4bd533bf353fb926c51bbbb3a8793dfdb91956b46352dfd"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.43/arugula-0.70.43-aarch64-apple-darwin.tar.gz"
-      sha256 "a277ab8a0d746c1d0ad25d8d6951e9f83cef76434bce4aad8a98774fab9cc393"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.44/arugula-0.70.44-aarch64-apple-darwin.tar.gz"
+      sha256 "e844553016dcc3cb193e5ebf3b0b53c9791a1b227d2e36e6dc3fa7f27c0c13aa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.43/arugula-0.70.43-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "209afdae3cac131b69a5f8f4ffaf539b925a320d06070b3b9b610cb4abe62c8b"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.44/arugula-0.70.44-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "53fa31810d8053cc686bf080284934b78e4c5f6c6b4150c9fbc1f36093c0d2e9"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.43/arugula-0.70.43-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "cdb7d24b738c0425e85c04aa30dc80183e8f848d63bc4f85be0b3da810fdf449"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.44/arugula-0.70.44-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7f86ccb93733dc2cf791335f9e79836be51bb8c631317310b38f38c42a2bf3a2"
     end
   end
 
