@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.40"
+  version "0.70.41"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.40/arugula-0.70.40-x86_64-apple-darwin.tar.gz"
-      sha256 "4d2dc6cd028890b6030621ac7684de58017032813377bc278557d942a4a6cf9e"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.41/arugula-0.70.41-x86_64-apple-darwin.tar.gz"
+      sha256 "271a29f8a6a16999e92435dd275e773ed59c3a5a4a61d661c167740e9c3c2461"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.40/arugula-0.70.40-aarch64-apple-darwin.tar.gz"
-      sha256 "915755ae83176868763df23e8971fae0ba81db07a6c942fda29a887a0e38dc52"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.41/arugula-0.70.41-aarch64-apple-darwin.tar.gz"
+      sha256 "e695d60414c381bf4678d73fcdc492a2a9d67ce026b820a75532bb5151f8528f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.40/arugula-0.70.40-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1d65eb5b62f46254d24eccd2cc6f5e736fcc6dcb8f33e287052e391096339532"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.41/arugula-0.70.41-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b9de2d51aa1325cb685955893719343895a5a00acf4ad26052f40889b36acb75"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.40/arugula-0.70.40-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "70d6c7702120f4ee79cb6e0e45ec65e91497ef78982c1bf8bb77516b57633fe3"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.41/arugula-0.70.41-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2d9145ef6a418d906c67686d9a4796a53758b152483e35de6d670bf78a26b5b1"
     end
   end
 
