@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.53"
+  version "0.70.54"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.53/arugula-0.70.53-x86_64-apple-darwin.tar.gz"
-      sha256 "9dcf7373c77e18753c9b13b0d6716ad86b93d47f312fd300771f286f23306343"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.54/arugula-0.70.54-x86_64-apple-darwin.tar.gz"
+      sha256 "1c50efde604e4493d480bf28453e1f210601d0f954ae51ed07a0210d3b5a0796"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.53/arugula-0.70.53-aarch64-apple-darwin.tar.gz"
-      sha256 "4ec9daee826bd3b4aa2cb39764d311a2ff6b12b0428b791276fc918601a76bad"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.54/arugula-0.70.54-aarch64-apple-darwin.tar.gz"
+      sha256 "90225cb458494ace72f724c16021cde2b405fca83c0548e6345a481e4ec69bb7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.53/arugula-0.70.53-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8763a88ea0076a806667ec146d69f88e2bc28bf45738b4b460f867a49851c43e"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.54/arugula-0.70.54-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "af7091abf4a291d2516fd3db08f26db66003f6534e2d40fc66fbf72a3bb4a1a2"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.53/arugula-0.70.53-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "812827c58b7dd2a7d8ffda5f870a7f68314b29f5e35c8120530562a2736428ff"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.54/arugula-0.70.54-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e466d07db5b6fa67b9868d2685e5560727d0f4816272d313bbdf6d452286e5e4"
     end
   end
 
