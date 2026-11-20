@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.58"
+  version "0.70.59"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.58/arugula-0.70.58-x86_64-apple-darwin.tar.gz"
-      sha256 "91ba07c54aaaa2bcb6ba5b74bb2e5ad9533551743243e9d1c83e23f3157f6b57"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.59/arugula-0.70.59-x86_64-apple-darwin.tar.gz"
+      sha256 "7c611b715758162b041af23469031576b9c2a5a2009946e09585e84d28826f2f"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.58/arugula-0.70.58-aarch64-apple-darwin.tar.gz"
-      sha256 "28accf12994ed36d6309a41e2eff7a187887ed772125cbc7c3d3eaa7199bce3a"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.59/arugula-0.70.59-aarch64-apple-darwin.tar.gz"
+      sha256 "85436514bbb56cd2917df59329fa23d9e1e0290055aef5c7e555cdd169318c14"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.58/arugula-0.70.58-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6650007cfe45be7a71360bb4c0ab2a736ab7ec6af591809038598a2509396e44"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.59/arugula-0.70.59-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "369b83e5cc94bf687b9933c0e4ec021f29edcae1f318cc05c6fd101ccbc3e428"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.58/arugula-0.70.58-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d44237dc13274e09ed6d74c81b316f3ae6201adfd6acbdc8be61ce85d891e878"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.59/arugula-0.70.59-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f8b0d2ee365b8a4996cca248d172d9e822ba3c300d461ee3c5fb173423a16c10"
     end
   end
 
