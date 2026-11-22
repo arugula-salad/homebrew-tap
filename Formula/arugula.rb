@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.78"
+  version "0.70.79"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.78/arugula-0.70.78-x86_64-apple-darwin.tar.gz"
-      sha256 "d08a7cc0483340421b5b54aa1ccd5eb1d8e9e16ae8fde01cfc383e4f70ea40a9"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-x86_64-apple-darwin.tar.gz"
+      sha256 "9a65f2dee4fa8a0cf7395af5e415acadd7c4a67a93acc1a934f94a5d6d21b204"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.78/arugula-0.70.78-aarch64-apple-darwin.tar.gz"
-      sha256 "6e1518e26f6ba68fde55a7fb618437c5dbc494a785545bc8fb9fa6e7f4813531"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-aarch64-apple-darwin.tar.gz"
+      sha256 "b40a93ec5618343a08a075805a4afbf5922c26adde51acc10cc85b8a1796dd19"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.78/arugula-0.70.78-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5fa0ce9c2948b09d89d748ce34fca6a4324e7cc5af15ea2da21cdab6f906b27a"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c3b4674a4f3461fb9ce1efdbd6851e0844978d756a5ecf2f406c1fdd160cce26"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.78/arugula-0.70.78-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6e7f3d5b8a0ef09b2c73ffeabe113d09e7b269c7201a656ef0e6fbeb68136b6d"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "77c13140a02300cb82cac8aa2c5e36d930af4aa5777450986e1ebd0a753f5169"
     end
   end
 
