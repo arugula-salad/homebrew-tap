@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.79"
+  version "0.70.80"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-x86_64-apple-darwin.tar.gz"
-      sha256 "9a65f2dee4fa8a0cf7395af5e415acadd7c4a67a93acc1a934f94a5d6d21b204"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.80/arugula-0.70.80-x86_64-apple-darwin.tar.gz"
+      sha256 "40243f8a236232d57eb42d27799d145b4d58d5d33b116df763ba2c8eab4fd6f9"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-aarch64-apple-darwin.tar.gz"
-      sha256 "b40a93ec5618343a08a075805a4afbf5922c26adde51acc10cc85b8a1796dd19"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.80/arugula-0.70.80-aarch64-apple-darwin.tar.gz"
+      sha256 "ea1c4e36566741c38392fb29dfa368a8cc8b4dc9553933624f374ac32e434ce7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c3b4674a4f3461fb9ce1efdbd6851e0844978d756a5ecf2f406c1fdd160cce26"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.80/arugula-0.70.80-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9ba08b20863564ae3e29adf90c36a2828dd2ff3b5bc2e29c858d518c65751ef5"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.79/arugula-0.70.79-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "77c13140a02300cb82cac8aa2c5e36d930af4aa5777450986e1ebd0a753f5169"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.80/arugula-0.70.80-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c706311b364861cf0e776da42087d65aba58a0961c062ae4204455d70b0e37fa"
     end
   end
 
