@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.101"
+  version "0.70.102"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.101/arugula-0.70.101-x86_64-apple-darwin.tar.gz"
-      sha256 "f8a1c62f15da623fd218959f3cc5581c9362f3330fb42a9a781eb3f75cfeebe6"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.102/arugula-0.70.102-x86_64-apple-darwin.tar.gz"
+      sha256 "0da098ec7f39195444e4a9c7336f2a54fdf79dcd0f6dde091f641e52b19f2549"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.101/arugula-0.70.101-aarch64-apple-darwin.tar.gz"
-      sha256 "232d823859c6957ac70bb81d55173e4955a213848768910e8e91eff81e7e8a55"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.102/arugula-0.70.102-aarch64-apple-darwin.tar.gz"
+      sha256 "378dc2e72423f47110a99e6ca7c1be58ca2f1bb4dd805f3f0f17ee308641bf64"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.101/arugula-0.70.101-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0396a889fa25c49b4e868273fb02eb21fa10e8218e833d051706784db247f47e"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.102/arugula-0.70.102-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e78039514fb02bf8044dd8afa6d1beea86001196106665b131b96987192fc5bd"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.101/arugula-0.70.101-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c505e1a1fe2f9f4866bf25fea92e5eaf8dd83bd9ec0f9c7edfa24516b8d6b737"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.102/arugula-0.70.102-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f337e34c0fc651934d529bb6f660de64e3884174d5c4c2664414c7a2253ae7ab"
     end
   end
 
