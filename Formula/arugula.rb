@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.99"
+  version "0.70.100"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.99/arugula-0.70.99-x86_64-apple-darwin.tar.gz"
-      sha256 "f4c0f93bb8ba104a03484d5d70374e1b7bd4484661cc4f6ec546667b4370f642"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.100/arugula-0.70.100-x86_64-apple-darwin.tar.gz"
+      sha256 "4d49fa9e9e8d6fea56cc04c37ba929e3ed6d1de4f418be56dde4d1fe42c4c317"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.99/arugula-0.70.99-aarch64-apple-darwin.tar.gz"
-      sha256 "e779a388477e3cb775aa5d057eb32a706c356c7adab218b21f5d7af37c3c4889"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.100/arugula-0.70.100-aarch64-apple-darwin.tar.gz"
+      sha256 "3bc204e7c1b3c7066838cf3c00393a755f91134a32d110add949681336ea38eb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.99/arugula-0.70.99-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "aff4e267a30b154f858135b8ab0165e7f8e0432d9fed9ab681e4195227016ffa"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.100/arugula-0.70.100-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "02d24d274ed5d5d6c447789b9fb029668322681441207df6de01260e09f71e7e"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.99/arugula-0.70.99-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3a761e94641c37516593d0e769e4bccdb1b453058c0527f7f11946d177fbf8b7"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.100/arugula-0.70.100-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "cbffbb9bf001b21e925165f033aea6810331411f906eb5cc0dc28e688ea02229"
     end
   end
 
