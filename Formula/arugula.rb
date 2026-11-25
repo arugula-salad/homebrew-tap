@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.110"
+  version "0.70.111"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.110/arugula-0.70.110-x86_64-apple-darwin.tar.gz"
-      sha256 "5844e8ea47bfcecf8b6cba8c46f5f076f0690922eec13bb540b2d707dea5f5ca"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.111/arugula-0.70.111-x86_64-apple-darwin.tar.gz"
+      sha256 "55c7adaa1f92f1a2da588220ccd0334c7f6e4985b89093f637c7606f4352fd61"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.110/arugula-0.70.110-aarch64-apple-darwin.tar.gz"
-      sha256 "0172b10dc26c463dcd2e3700270dbe4e59c480baaaffea61ff0501e6ce78beeb"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.111/arugula-0.70.111-aarch64-apple-darwin.tar.gz"
+      sha256 "72b4ca9054cdc01bc29a072d76f79e5d9475ee7eee59269fc7fc80241bef7fb9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.110/arugula-0.70.110-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1dde458d8e193106a91404afa816626b98f5cc820e6b8e6969ded2ab45280c00"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.111/arugula-0.70.111-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "717aa2592771cc05d62026c2c13a6db4fc7e078473bfeaec5eed02aa0ff93ca3"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.110/arugula-0.70.110-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0ee8f9641980e5cdaafa0bc3a45ad1436fc5417cac68797e06287ca4f10bbe93"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.111/arugula-0.70.111-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "151557c220a8f370741cc116628fba7e529d5b2a4ccc4cc601438c1585188b28"
     end
   end
 
