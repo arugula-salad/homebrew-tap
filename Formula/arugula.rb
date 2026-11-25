@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.115"
+  version "0.70.116"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.115/arugula-0.70.115-x86_64-apple-darwin.tar.gz"
-      sha256 "4a489df1b2fae24d167edbdd51623dc72bf81edd6989723258afcdbea44c474f"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-x86_64-apple-darwin.tar.gz"
+      sha256 "82e3ba407bed1dd26f6dcd271a7ac0f15f2317b3908965a9eac19e286b4f233b"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.115/arugula-0.70.115-aarch64-apple-darwin.tar.gz"
-      sha256 "e69be9402b3c87862f9c59c76c336fde992a1ebc9cc3451f2508aafc5b8a947e"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-aarch64-apple-darwin.tar.gz"
+      sha256 "d4773bfda0411c2c8dd39bdd2d99b58b3cfcf0117996799f07521410d26f2260"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.115/arugula-0.70.115-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "83ae78fe037e639b7c7dd31a77cac660e79d0df183dab0a0dc8ebdab09336bcd"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ee946bfe40cf9fd77a7ebed20046f282dc79ef1c249b91b24f79213d3a8c8203"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.115/arugula-0.70.115-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "552d9e415ec98071da543d41b5fe478b8df6f4cd386a7a84ea55fc5b0b7475b4"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e16bd753a27f7804f453706f257f648891bb36c9e45f5e915c9cf27680dd8608"
     end
   end
 
