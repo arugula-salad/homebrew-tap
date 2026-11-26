@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.125"
+  version "0.70.126"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.125/arugula-0.70.125-x86_64-apple-darwin.tar.gz"
-      sha256 "bcc9c1dfad156e3401bcca30422a44b5eadceb44c62f4ba592587edb036f949d"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.126/arugula-0.70.126-x86_64-apple-darwin.tar.gz"
+      sha256 "d0b41da767c20fb805f786e1f3454bebdaeed5f984e945f07d5945c687d059d5"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.125/arugula-0.70.125-aarch64-apple-darwin.tar.gz"
-      sha256 "501a43bddb52a44122de2b6ada17aca56602a7df6800cf76b2028fbeb6bac254"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.126/arugula-0.70.126-aarch64-apple-darwin.tar.gz"
+      sha256 "17d8633cd90a0756108cdfccc8945f7c6221bef67d97e27e004d8297dd8e6dd9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.125/arugula-0.70.125-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "18f603aca6f17676e90161d3789343d2350f0767f7922bcead3d784eb4323362"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.126/arugula-0.70.126-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "225a7e761bc5b9d8c7a7172f547a4ab87af270e8d36be8b5e99b9f3ab2d68ad9"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.125/arugula-0.70.125-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6f74a9fde6dd0e37bffe889284ea85360ad604446f36240f1dd343905169ef76"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.126/arugula-0.70.126-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "053239dfd773015433afff4cd73fd887fab30dfe04dcaf372fca238868992562"
     end
   end
 
