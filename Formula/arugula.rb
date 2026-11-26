@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.117"
+  version "0.70.118"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-x86_64-apple-darwin.tar.gz"
-      sha256 "75e7c455c3df938d7498878389729aa9fbef0a41390bba955eac7fcd65f8e538"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.118/arugula-0.70.118-x86_64-apple-darwin.tar.gz"
+      sha256 "7bcce22004bd6b18262a2c4ffaeee8d0265729d03e301d2b6bfae8acf173c78b"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-aarch64-apple-darwin.tar.gz"
-      sha256 "8a032bcb7915ca069f6b9d16295abeebb2a5d7360048ab9a407cf9653269b9b9"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.118/arugula-0.70.118-aarch64-apple-darwin.tar.gz"
+      sha256 "d25b316467798953c57ad432311a5674d4aab61e033cfb1d8ece53676cdb92fe"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "acd71f3ff5bb6d3ea6549fa2e5c1079fdfdcf87072a0c55c8456d454b4bb25ea"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.118/arugula-0.70.118-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "fda6a73930a9a6590debc88dda5ce5c5eccf980cb10acad1b98fcbbfe6af2b24"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "95f967a49f6906d8763185f6d46c6109c7efd356dea3676c3cf730152d0005de"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.118/arugula-0.70.118-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2a21b56c0b8bdf19150e30cf9d61233e84fc826c70dd72e1e3950241b27e771f"
     end
   end
 
