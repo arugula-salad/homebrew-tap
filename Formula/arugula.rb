@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.116"
+  version "0.70.117"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-x86_64-apple-darwin.tar.gz"
-      sha256 "82e3ba407bed1dd26f6dcd271a7ac0f15f2317b3908965a9eac19e286b4f233b"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-x86_64-apple-darwin.tar.gz"
+      sha256 "75e7c455c3df938d7498878389729aa9fbef0a41390bba955eac7fcd65f8e538"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-aarch64-apple-darwin.tar.gz"
-      sha256 "d4773bfda0411c2c8dd39bdd2d99b58b3cfcf0117996799f07521410d26f2260"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-aarch64-apple-darwin.tar.gz"
+      sha256 "8a032bcb7915ca069f6b9d16295abeebb2a5d7360048ab9a407cf9653269b9b9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ee946bfe40cf9fd77a7ebed20046f282dc79ef1c249b91b24f79213d3a8c8203"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "acd71f3ff5bb6d3ea6549fa2e5c1079fdfdcf87072a0c55c8456d454b4bb25ea"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.116/arugula-0.70.116-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e16bd753a27f7804f453706f257f648891bb36c9e45f5e915c9cf27680dd8608"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.117/arugula-0.70.117-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "95f967a49f6906d8763185f6d46c6109c7efd356dea3676c3cf730152d0005de"
     end
   end
 
