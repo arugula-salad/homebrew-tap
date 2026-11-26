@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.127"
+  version "0.70.128"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.127/arugula-0.70.127-x86_64-apple-darwin.tar.gz"
-      sha256 "0f457a9713e389227d82374c5422a67a6255082051307e40b8575989dcf568b9"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.128/arugula-0.70.128-x86_64-apple-darwin.tar.gz"
+      sha256 "ae24558472990c828ffbdab401f669efaa8aba19190f748359da889bc9433f10"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.127/arugula-0.70.127-aarch64-apple-darwin.tar.gz"
-      sha256 "1abc32f7ca7c4c69584ae1a1386f74cc85bfc0f4b1ef44fce45f9d8e476e2017"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.128/arugula-0.70.128-aarch64-apple-darwin.tar.gz"
+      sha256 "114ffa4b38f7a0ab36c21991b0af71d2e3b3fa8ac781eb557389683b79dd165a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.127/arugula-0.70.127-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "40aaa6fca2a8e54f7ee14d7f6ab40deffb1f04590d0ccf8e8c1680e3184aeed8"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.128/arugula-0.70.128-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c779fec6b97db05fdd371e8c0994c737baca02ed00620d6c2b8b0c670d826655"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.127/arugula-0.70.127-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ab7e6b88a46093f0c99fe99492f4c467ab66ea88bd4034bcc78dd0f71dafdade"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.128/arugula-0.70.128-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e51ddf56ca9c5789ca58723b3142027f4b0deabdcc595cb970eec6595e44c753"
     end
   end
 
