@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.135"
+  version "0.70.137"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.135/arugula-0.70.135-x86_64-apple-darwin.tar.gz"
-      sha256 "fcecee98a974cd82dc2d5bb7c43e7c39fe8e46aee6af3c2e60eaa134f6847e17"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.137/arugula-0.70.137-x86_64-apple-darwin.tar.gz"
+      sha256 "0dcd39948469620538237dd0adf5459042e2062c88306a5ae0fa9c791f779b66"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.135/arugula-0.70.135-aarch64-apple-darwin.tar.gz"
-      sha256 "4c35159a1da3b5143bc18fbcb468a3ffb6a981cae1ced017436158648448959b"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.137/arugula-0.70.137-aarch64-apple-darwin.tar.gz"
+      sha256 "9baf2998a001fe8915cb098c4809e2c224bd13481f993b8dd7ce4e187d6f8b14"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.135/arugula-0.70.135-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ad9392e5e3c70f8dfa4935a13f695ed46f3053255b847f228017f902fde5639a"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.137/arugula-0.70.137-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d0a7f33f337cd8b8be5c1afb63e8e6acf16826af1787c3869304a14bcf15b411"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.135/arugula-0.70.135-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a16d7e4421cfa11afa5354afc06c7bf27120200af7de60c92646a78f796ca82f"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.137/arugula-0.70.137-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "457d0ec63993ca8dcc677b490b8721e63c07611d2d1b7506ecb8d560c18a3300"
     end
   end
 
