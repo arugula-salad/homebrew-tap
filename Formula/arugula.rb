@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.141"
+  version "0.70.145"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-x86_64-apple-darwin.tar.gz"
-      sha256 "5e3b1f86d2378859a76ae569ab625f6783f221b0a654d941e1ae1492740c5be3"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.145/arugula-0.70.145-x86_64-apple-darwin.tar.gz"
+      sha256 "39672a2bd442021337286702a6f90206a57b73bc9c9e77574f24c2289e13e525"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-aarch64-apple-darwin.tar.gz"
-      sha256 "7480361a4ab308d151fb8e217ad730d33445b98c3f4d239d3b52bbfca50dacec"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.145/arugula-0.70.145-aarch64-apple-darwin.tar.gz"
+      sha256 "774833b70b12d54aeec62542a3b2e553301276a2f1615d4902eb428dddece185"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6fbe865df0d2e8009b687cb79385c2584c1ddeb57f7fa1a8c8fa0770d1619454"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.145/arugula-0.70.145-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0f826fbff8dcd253d6d0ab9de3cb21f388a6b5611f9632eac18909c9aba74e5d"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0e4a1be0f4e7e7c517a9af28eff764ff78e9be95ea20ee34f195e000b95f3e1a"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.145/arugula-0.70.145-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "72c94fd06403a11e59542a536ac070250a02298b2926c0cd1541de90e834cd0f"
     end
   end
 
