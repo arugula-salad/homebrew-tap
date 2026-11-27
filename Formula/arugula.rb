@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.141"
+  version "0.70.144"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-x86_64-apple-darwin.tar.gz"
-      sha256 "5e3b1f86d2378859a76ae569ab625f6783f221b0a654d941e1ae1492740c5be3"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.144/arugula-0.70.144-x86_64-apple-darwin.tar.gz"
+      sha256 "baddc26ccbf0297fa9a2211842f3dd9d111005b7963d4e92e5c34340f46f1801"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-aarch64-apple-darwin.tar.gz"
-      sha256 "7480361a4ab308d151fb8e217ad730d33445b98c3f4d239d3b52bbfca50dacec"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.144/arugula-0.70.144-aarch64-apple-darwin.tar.gz"
+      sha256 "da91375b6eed110ee8b553f735a409146d376173823369f97e3a4eddc66884e8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6fbe865df0d2e8009b687cb79385c2584c1ddeb57f7fa1a8c8fa0770d1619454"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.144/arugula-0.70.144-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f086734e1b772352a4daeff7f457307f3f78ca700f7283414aa33cf3760520de"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.141/arugula-0.70.141-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0e4a1be0f4e7e7c517a9af28eff764ff78e9be95ea20ee34f195e000b95f3e1a"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.144/arugula-0.70.144-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "bdb5019bbea3cd97408148b8d03becb5f4936a62980d7ca0b40e6d342da99ea4"
     end
   end
 
