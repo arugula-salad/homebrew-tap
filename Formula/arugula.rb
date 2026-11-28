@@ -6,28 +6,28 @@
 class Arugula < Formula
   desc "Terminal multiplexer whose sessions outlive the window, the daemon and the reboot"
   homepage "https://arugula.io"
-  version "0.70.160"
+  version "0.70.161"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.160/arugula-0.70.160-x86_64-apple-darwin.tar.gz"
-      sha256 "2c7a47a2f20d0ea613de2ac04c48bb9a66c7ec4dc047125f942dd8a648dce834"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.161/arugula-0.70.161-x86_64-apple-darwin.tar.gz"
+      sha256 "1e5c48408cd6d160d116c67f2e23fa49d8e2ea0913cf26b1f55f80cbc9089dda"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.160/arugula-0.70.160-aarch64-apple-darwin.tar.gz"
-      sha256 "d2742ed21a3afd3d1ace80cef61a05ffef34716fe04049ba5541b5f97f9d22e2"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.161/arugula-0.70.161-aarch64-apple-darwin.tar.gz"
+      sha256 "7ab7951c8241c7a02abd6ddb56daefee034d166f0ef3b5d6b76c08b426261ceb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.160/arugula-0.70.160-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e88242380985e2e817f24fecef421019b4aa1a3310cdd09aa80c57822568b88c"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.161/arugula-0.70.161-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c739c84a403c38068a95a0d2eb0ccd947dc3bd35f37991beca64eb71b2b76e29"
     end
     on_arm do
-      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.160/arugula-0.70.160-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2fa8ae8a01aaef1d726a2d520c721b1be0468ee4b61bd057376aa7c4c2314764"
+      url "https://github.com/arugula-salad/arugula/releases/download/v0.70.161/arugula-0.70.161-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ba26541b376219832c23cf9cf93f8302f26c2f50c12a05bf7267d3098c35dd18"
     end
   end
 
